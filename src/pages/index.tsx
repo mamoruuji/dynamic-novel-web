@@ -1,10 +1,22 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
+import SidebarClass from '../components/sidebar'
 import styles from '../styles/Home.module.css'
 
 const Home: NextPage = () => {
+    const style = {
+    width: "50%",
+    margin: "0 auto",
+    marginTop: 150
+  }
   return (
+    <>
+    <div className="App">
+      <div style={style}>
+        <SidebarClass />
+      </div>
+    </div>
     <div className={styles.container}>
       <Head>
         <title>Create Next App</title>
@@ -60,6 +72,7 @@ const Home: NextPage = () => {
         </a>
       </footer>
     </div>
+    </>
   )
 }
 
