@@ -8,6 +8,6 @@ module.exports = nextConfig
 const withTM = require('next-transpile-modules')(['three'])
 module.exports = withTM({
   future: {
-    webpack5: true
-  }
+    webpack5: true,
+  },
 })
