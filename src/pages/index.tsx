@@ -1,7 +1,7 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
-import SidebarClass from '../components/sidebar'
+import MiniDrawer from '../components/sidebar'
 import styles from '../styles/Home.module.css'
 
 const Home: NextPage = () => {
@@ -14,7 +14,7 @@ const Home: NextPage = () => {
     <>
       <div className='App'>
         <div style={style}>
-          <SidebarClass />
+          <MiniDrawer />
         </div>
       </div>
       <div className={styles.container}>
