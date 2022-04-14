@@ -5,6 +5,7 @@ import MenuIcon from '@mui/icons-material/Menu'
 import InboxIcon from '@mui/icons-material/MoveToInbox'
 import MuiAppBar, { AppBarProps as MuiAppBarProps } from '@mui/material/AppBar'
 import Box from '@mui/material/Box'
+import Button from '@mui/material/Button'
 import CssBaseline from '@mui/material/CssBaseline'
 import Divider from '@mui/material/Divider'
 import MuiDrawer from '@mui/material/Drawer'
@@ -116,8 +117,10 @@ export default function MiniDrawer() {
             <MenuIcon />
           </IconButton>
           <Typography variant='h6' noWrap component='div'>
-            Mini variant drawer
+            ページタイトル
           </Typography>
+          <div style={{ flexGrow: 1 }}></div>
+          <Button color="inherit">ユーザページ</Button>
         </Toolbar>
       </AppBar>
       <Drawer variant='permanent' open={open}>
