@@ -22,7 +22,6 @@ const Home: NextPage = () => {
           <MiniDrawer />
         </div>
       </div>
-
     </>
   )
 }
