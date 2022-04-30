@@ -120,7 +120,7 @@ export default function MiniDrawer() {
             ページタイトル
           </Typography>
           <div style={{ flexGrow: 1 }}></div>
-          <Button color="inherit">ユーザページ</Button>
+          <Button color='inherit'>ユーザページ</Button>
         </Toolbar>
       </AppBar>
       <Drawer variant='permanent' open={open}>
